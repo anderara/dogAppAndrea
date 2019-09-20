@@ -6,6 +6,7 @@ export default function DogList(props) {
 
   return (<div>
     <h1>Dog Breeds</h1>
+    <div className="breedList">
     <ul>
       { props.breeds.map(breed =>
       <li key={breed}>
@@ -13,5 +14,6 @@ export default function DogList(props) {
         </li>
       ) }
     </ul>
+    </div>
   </div>)
 }

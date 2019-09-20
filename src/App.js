@@ -6,6 +6,7 @@ import { Route } from 'react-router-dom'
 import { Link } from 'react-router-dom';
 import GameOneContainer from './components/GameOneContainer';
 import HomeContainer from './components/HomeContainer';
+import GameTwoContainer from './components/GameTwoContainer';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
           <Route exact path="/" component={HomeContainer} />
           <Route exact path="/dog-breeds" component={DogListContainer} />
           <Route path="/dog-breeds/:breed" component={DogImagesContainer} />
-          <Route exact path="/gameone" />
+          <Route exact path="/gameone" component={GameTwoContainer}/>
           <Route exact path="/gametwo" component={GameOneContainer} />
         
     </div>

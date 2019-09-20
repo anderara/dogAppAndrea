@@ -31,7 +31,7 @@ export default function GameOne(props) {
     }
 
    return (<div>
-            <h2>Game one</h2> <h2>your score: {score}</h2>
+            <h2>Game Two</h2> <h2>your score: {score}</h2>
             <p>Please select the picture displaying a: </p>
             <h3> {correctBreed} </h3>
 
